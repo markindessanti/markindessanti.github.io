@@ -22,7 +22,7 @@ $('.row.fullbanner-container').slick({
 	appendDots: ".fullbanner-dots-container",
 	appendArrows: ".fullbanner-custom-arrows",
 	prevArrow: "<div class='prev-arrow'><img src='./img/next-icon-prev.svg'></div>",
-	nextArrow: "<div class='next-arrow'><img src='./img/next-icon-next.svg'></div>",
+	nextArrow: "<div class='next-arrow'><img src='./img/next-icon-next.svg'></div>"
 });
 
 $('.row.fullbanner-container img').removeClass("d-none")
@@ -46,6 +46,51 @@ $('.vitrine-cards').slick({
 	appendArrows: ".vitrine-custom-arrows",
 	prevArrow: "<div class='prev-arrow'><img src='./img/next-icon-prev.svg'></div>",
 	nextArrow: "<div class='next-arrow'><img src='./img/next-icon-next.svg'></div>",
+	responsive: [
+		{
+			breakpoint: 1400,
+			settings: {
+				slidesToShow: 5,
+				slidesToScroll: 1,
+				infinite: true,
+				dots: true
+			}
+		},
+		{
+			breakpoint: 1200,
+			settings: {
+				slidesToShow: 4,
+				slidesToScroll: 1,
+				infinite: true,
+				dots: true
+			}
+		},
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 3,
+				slidesToScroll: 1,
+				infinite: true,
+				dots: true
+			}
+		},
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 2,
+				slidesToScroll: 1,
+				infinite: true,
+				dots: true
+			}
+		},
+		{
+			breakpoint: 576,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1
+			}
+		}
+	]
 });
 
 $('.vitrine-cards .col-2').removeClass("d-none")
