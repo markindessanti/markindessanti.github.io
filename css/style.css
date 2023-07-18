@@ -256,6 +256,10 @@ h1 {
 	right: 7.5%;
 }
 
+.vitrine-dots-container {
+	display: none;
+}
+
 .vitrine-custom-arrows {
 	display: flex;
 	justify-content: center;
