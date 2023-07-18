@@ -30,7 +30,7 @@ body {
 }
 
 .logo-header {
-	width: 1920px;
+	width: 100%;
 	height: 88px;
 	flex-shrink: 0;
 	background: #FFF;
@@ -162,14 +162,14 @@ h1 {
 	padding-bottom: 4px;
 	padding-left: 12px;
 	padding-right: 2px;
+	justify-content: center;
 }
 
 .menu-header {
-	width: 1598px;
-	padding: 10px 323px 9px 162px;
-	align-items: flex-start;
+	align-items: center;
 	flex-shrink: 0;
 	height: 41px;
+	justify-content: center;
 }
 
 .menu-header div {
