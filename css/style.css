@@ -961,6 +961,7 @@ h1 {
 }
 
 @media (max-width: 575px) {
+
 	.tipbar-cards .col-2,
 	.parcerias-cards .col-2 {
 		display: flex !important;
@@ -1039,10 +1040,37 @@ h1 {
 		height: unset;
 	}
 
+	.newsletter-container {
+		justify-content: center;
+	}
+
 	.banner-container .banner-nova-colecao {
 		content: url(../img/banner-mobile.png);
 		width: 100%;
 		position: unset;
+	}
+
+	.newsletter-container form div {
+		justify-content: center;
+	}
+
+	.newsletter-container .row p {
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 8px;
+	}
+
+	.newsletter-container input {
+		width: 204px;
+		height: 26px;
+	}
+
+	.newsletter-container button {
+		width: 79px;
+		height: 26px;
+		padding: 0px 20px;
+		justify-content: center;
+		align-items: center;
 	}
 }
 
