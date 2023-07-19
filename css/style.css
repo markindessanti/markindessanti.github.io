@@ -391,7 +391,7 @@ h1 {
 }
 
 .tipbar-container .tipbar-cards {
-	height: 64px;
+	/* height: 64px; */
 	justify-content: center;
 	align-items: flex-start;
 	gap: 15px;
@@ -435,7 +435,7 @@ h1 {
 
 .parcerias-container .parcerias-cards {
 	display: flex;
-	height: 64px;
+	/* height: 64px; */
 	justify-content: center;
 	align-items: flex-start;
 	gap: 15px;
