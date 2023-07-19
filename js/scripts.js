@@ -34,7 +34,7 @@ setInterval(function () {
 }, 100)
 
 $('.vitrine-cards').slick({
-	slidesToShow: 5,
+	slidesToShow: 1,
 	slidesToScroll: 1,
 	autoplay: true,
 	autoplaySpeed: 2000,
@@ -94,3 +94,28 @@ $('.vitrine-cards').slick({
 });
 
 $('.vitrine-cards .col-2').removeClass("d-none")
+
+$('.tipbar-cards, .parcerias-cards').slick({
+	responsive: [
+		{
+			breakpoint: 5000,
+			settings: "unslick"
+		},
+		{
+			breakpoint: 576,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				autoplay: true,
+				autoplaySpeed: 0,
+				speed: 6000,
+				dots: false,
+				infinite: true,
+				arrows: false,
+				cssEase: 'linear'
+			}
+		}
+	]
+});
+
+$('.tipbar-cards .col-2, .parcerias-cards .col-2').removeClass("d-none");
