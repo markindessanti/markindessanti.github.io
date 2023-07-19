@@ -562,8 +562,11 @@ h1 {
 }
 
 .banner-container {
-	width: 1598px;
 	margin-bottom: 80px;
+}
+
+.banner-container img {
+	width: 100%;
 }
 
 .banner-container .row {
