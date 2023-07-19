@@ -411,6 +411,10 @@ h1 {
 	margin: 0;
 }
 
+.vitrine-container .vitrine-cards .slick-slide {
+	margin: 0 8px;
+}
+
 .tipbar-cards .col-2,
 .parcerias-cards .col-2,
 .vitrine-cards .col-2 {
