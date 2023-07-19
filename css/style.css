@@ -275,12 +275,12 @@ h1 {
 
 .vitrine-custom-arrows .prev-arrow {
 	position: absolute;
-	left: -1%;
+	left: 0;
 }
 
 .vitrine-custom-arrows .next-arrow {
 	position: absolute;
-	right: -1%;
+	right: 0;
 }
 
 .mensagem-sobreposta {
