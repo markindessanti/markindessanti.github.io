@@ -928,6 +928,43 @@ h1 {
 	cursor: pointer;
 }
 
+@media (max-width: 575px) {}
+
+@media (max-width: 767px) {
+
+	#modal-desktop,
+	.row-modal .col form div.texto {
+		width: 298px;
+	}
+
+	.row-modal {
+		width: 298px;
+		height: 307px;
+	}
+
+	.row-modal .col form div.texto input,
+	.row-modal .col form div.texto button,
+	.row-modal .col form div.texto p:last-of-type {
+		width: 258px;
+	}
+
+	.row-modal .col form div.texto input {
+		font-size: 12px;
+	}
+
+	.row-modal .col form div.texto p:last-of-type {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 991px) {}
+
+@media (max-width: 1199px) {}
+
+@media (max-width: 1399px) {}
+
+@media (max-width: 1599px) {}
+
 @media (min-width: 1600px) {
 	.container {
 		max-width: 1600px;
