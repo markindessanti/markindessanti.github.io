@@ -695,8 +695,8 @@ h1 {
 	justify-content: space-between;
 	height: 291px;
 	padding-top: 40px;
-	padding-left: 324px;
-	padding-right: 324px;
+	/* padding-left: 324px; */
+	/* padding-right: 324px; */
 	padding-bottom: 64px;
 }
 
@@ -792,8 +792,6 @@ h1 {
 
 .powered-by {
 	display: flex;
-	width: 207.96px;
-	padding: 0px 140.126px 2.81px 0px;
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
