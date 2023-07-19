@@ -34,7 +34,7 @@ setInterval(function () {
 }, 100)
 
 $('.vitrine-cards').slick({
-	slidesToShow: 1,
+	slidesToShow: 5,
 	slidesToScroll: 1,
 	autoplay: true,
 	autoplaySpeed: 2000,
