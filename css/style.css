@@ -215,6 +215,10 @@ h1 {
 	margin-bottom: 27px;
 }
 
+.fullbanner-container img {
+	content: url(../img/fullbanner.png);
+}
+
 .fullbanner-dots-container .slick-dots {
 	display: flex;
 	justify-content: center;
@@ -954,6 +958,10 @@ h1 {
 
 	.row-modal .col form div.texto p:last-of-type {
 		font-size: 16px;
+	}
+
+	.fullbanner-container img {
+		content: url(../img/fullbanner-mobile.png);
 	}
 }
 
