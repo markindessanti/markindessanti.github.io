@@ -877,7 +877,7 @@ h1 {
 }
 
 #modal-desktop {
-	position: absolute;
+	position: fixed;
 	text-align: center;
 	width: 848px;
 	height: 549.64px;
