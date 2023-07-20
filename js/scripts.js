@@ -129,14 +129,24 @@ $('.tipbar-cards .col-2, .parcerias-cards .col-2').removeClass("d-none");
 $(".secao-rodape").on("click", (event) => {
 	if ($(document).width() < 768) {
 		$('.links-rodape.opened')
-			.removeClass('opened')
-			.slideToggle();
+			.removeClass('opened');
 
 		$(event.currentTarget)
 			.find('.links-rodape')
-			.not('opened')
+			.not('.opened')
 			.addClass('opened')
 			.slideToggle();
 
+		$('.expand-button.rotate')
+			.removeClass('rotate');
+
+		$(event.currentTarget)
+			.find(".expand-button")
+			.not('.rotate')
+			.addClass("rotate");
+
+		$(event.currentTarget)
+			.find(".expand-button.rotate")
+			.addClass("rotate");
 	}
 });

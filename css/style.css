@@ -1237,6 +1237,11 @@ h1 {
 		line-height: 18px;
 	}
 
+	.expand-button.rotate {
+		transform: rotate(-45deg);
+		transition: .3s;
+	}
+
 	.footer-desktop div {
 		padding: 0 !important;
 	}
