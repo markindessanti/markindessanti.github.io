@@ -119,3 +119,15 @@ $('.tipbar-cards, .parcerias-cards').slick({
 });
 
 $('.tipbar-cards .col-2, .parcerias-cards .col-2').removeClass("d-none");
+
+$(".secao-rodape").on("click", (event) => {
+	$('.links-rodape.opened')
+		.removeClass('opened')
+		.slideToggle();
+
+	$(event.currentTarget)
+		.find('.links-rodape')
+		.not('opened')
+		.addClass('opened')
+		.slideToggle();
+})
