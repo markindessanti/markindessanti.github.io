@@ -799,13 +799,17 @@ h1 {
 	display: flex;
 	height: 32px;
 	align-items: center;
+	justify-content: center;
+}
+
+.footer-desktop div:first-of-type {
+	justify-content: flex-start;
 }
 
 .footer-desktop div:last-of-type {
 	height: 48px;
-	width: 207.96px;
-	gap: unset;
-	justify-content: space-between;
+	gap: 21.57px;
+	justify-content: flex-end;
 }
 
 .footer-desktop-container .div a {
@@ -850,7 +854,7 @@ h1 {
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-	gap: 3.478px;
+	gap: 6px;
 }
 
 #powered-by span {
@@ -867,7 +871,7 @@ h1 {
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-	gap: 2.478px;
+	gap: 6px;
 }
 
 #modal-desktop {
@@ -1115,6 +1119,10 @@ h1 {
 	.footer-desktop-container .row {
 		min-height: 233px;
 		padding: 24px 31px 32.3px;
+	}
+
+	.footer-desktop div {
+		padding: 0 !important;
 	}
 }
 
