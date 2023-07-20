@@ -880,7 +880,7 @@ h1 {
 	width: 848px;
 	left: 0;
 	right: 0;
-	z-index: 2;
+	z-index: 7;
 	top: 0;
 	bottom: 0;
 	margin: auto;
@@ -995,7 +995,7 @@ h1 {
 	right: 0;
 	bottom: 0;
 	background: rgba(0, 0, 0, 0.7);
-	z-index: 1;
+	z-index: 6;
 	cursor: pointer;
 }
 
