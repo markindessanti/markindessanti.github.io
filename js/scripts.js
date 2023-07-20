@@ -117,7 +117,8 @@ $('.tipbar-cards, .parcerias-cards').slick({
 				infinite: true,
 				arrows: false,
 				fade: true,
-				pauseOnHover: false
+				pauseOnHover: false,
+				pauseOnFocus: false
 			}
 		}
 	]
