@@ -1079,17 +1079,17 @@ h1 {
 	}
 
 	.fullbanner-custom-arrows {
-		bottom: 195px;
+		bottom: 216px;
 	}
 
 	.fullbanner-custom-arrows .prev-arrow {
 		position: absolute;
-		left: 1.5%;
+		left: 3.5%;
 	}
 
 	.fullbanner-custom-arrows .next-arrow {
 		position: absolute;
-		right: 1.5%;
+		right: 3.5%;
 	}
 
 	.fullbanner-dots-container .slick-dots button {
