@@ -405,7 +405,7 @@ h1 {
 	justify-content: space-between;
 	align-items: center;
 	gap: 15px;
-	height: 601px;
+	/* height: 601px; */
 	width: 100%;
 	padding: 0;
 	margin: 0;
@@ -1062,6 +1062,7 @@ h1 {
 	}
 
 	.banner-container {
+		padding-top: 40px;
 		padding-left: 31px;
 		padding-right: 31px;
 		margin-bottom: 39px;
@@ -1149,6 +1150,14 @@ h1 {
 
 	.vitrine-container {
 		margin-bottom: 40px;
+	}
+
+	.vitrine-container .vitrine-cards .slick-slide {
+		margin: 0 15px;
+		padding-left: 26px;
+		padding-right: 26px;
+		height: 601px;
+		z-index: 3;
 	}
 
 	.banner-container .col-md-4 h3,
