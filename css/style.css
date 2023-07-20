@@ -1080,6 +1080,7 @@ h1 {
 
 	.fullbanner-custom-arrows {
 		bottom: 216px;
+		z-index: 5;
 	}
 
 	.fullbanner-custom-arrows .prev-arrow {
