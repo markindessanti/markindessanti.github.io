@@ -1,6 +1,8 @@
 function modalOff() {
 	$("#modal-desktop").addClass("d-none");
 	$("#overlay").addClass("d-none");
+	$("html").removeClass("no-scroll");
+	$("body").removeClass("no-scroll");
 }
 
 $('.button-fechar').on('click', modalOff);
@@ -8,6 +10,8 @@ $('.button-fechar').on('click', modalOff);
 setTimeout(function () {
 	$('#modal-desktop').removeClass('d-none');
 	$("#overlay").removeClass("d-none");
+	$("html").addClass("no-scroll");
+	$("body").addClass("no-scroll");
 }, 5000);
 
 $('.row.fullbanner-container').slick({
