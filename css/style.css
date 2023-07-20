@@ -1096,6 +1096,37 @@ h1 {
 		transform: scale(.5);
 	}
 
+	.mensagem-sobreposta {
+		bottom: 305px;
+		left: 16.6%;
+		width: 471px;
+		margin-bottom: -226px;
+	}
+
+	.mensagem-sobreposta h2 {
+		font-size: 30px;
+		margin-bottom: 24px;
+		width: 223px;
+	}
+
+	.mensagem-sobreposta button {
+		display: inline-flex;
+		width: 76px;
+		height: 28px;
+		font-size: 14px;
+		font-weight: 700;
+		border-radius: 4px;
+		line-height: 17.07px;
+	}
+
+	.mensagem-sobreposta p {
+		font-size: 14px;
+		width: 239px;
+		margin-bottom: 16px;
+		line-height: normal;
+		font-style: normal;
+	}
+
 	.banner-container .col-md-4 h3,
 	.banner-container .col-md-4 p {
 		width: 100%;
