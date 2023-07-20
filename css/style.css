@@ -746,7 +746,6 @@ h1 {
 	width: 307px;
 	height: 187px;
 	flex-direction: column;
-	justify-content: center;
 	align-items: flex-start;
 	gap: 18px;
 	margin-top: -2px;
@@ -772,8 +771,16 @@ h1 {
 	font-family: Titillium Web;
 	font-weight: 700;
 	line-height: 18px;
-	position: relative;
-	top: -3px;
+}
+
+.links-rodape {
+	color: var(--color-2500, #353535);
+	font-size: 12px;
+	font-family: 'Titillium Web';
+	line-height: 18px;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
 }
 
 .footer-desktop-container .row {
@@ -1071,6 +1078,11 @@ h1 {
 		height: 26px;
 		padding: 0px 20px;
 		margin-left: 15px;
+	}
+
+	.footer-links {
+		padding-left: 31px;
+		padding-right: 31px;
 	}
 }
 
