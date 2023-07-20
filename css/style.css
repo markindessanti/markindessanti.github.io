@@ -1078,6 +1078,24 @@ h1 {
 		content: url(../img/fullbanner-mobile.png);
 	}
 
+	.fullbanner-custom-arrows {
+		bottom: 195px;
+	}
+
+	.fullbanner-custom-arrows .prev-arrow {
+		position: absolute;
+		left: 1.5%;
+	}
+
+	.fullbanner-custom-arrows .next-arrow {
+		position: absolute;
+		right: 1.5%;
+	}
+
+	.fullbanner-dots-container .slick-dots button {
+		transform: scale(.5);
+	}
+
 	.banner-container .col-md-4 h3,
 	.banner-container .col-md-4 p {
 		width: 100%;
