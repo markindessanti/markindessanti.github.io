@@ -412,7 +412,6 @@ h1 {
 	justify-content: space-between;
 	align-items: center;
 	gap: 15px;
-	/* height: 601px; */
 	width: 100%;
 	padding: 0;
 	margin: 0;
@@ -433,7 +432,6 @@ h1 {
 }
 
 .tipbar-container .tipbar-cards {
-	/* height: 64px; */
 	justify-content: center;
 	align-items: flex-start;
 	gap: 15px;
@@ -477,7 +475,6 @@ h1 {
 
 .parcerias-container .parcerias-cards {
 	display: flex;
-	/* height: 64px; */
 	justify-content: center;
 	align-items: flex-start;
 	gap: 15px;
@@ -614,7 +611,6 @@ h1 {
 .banner-container .row {
 	display: flex;
 	align-items: center;
-	/* justify-content: space-between; */
 	height: 480px;
 }
 
@@ -630,8 +626,6 @@ h1 {
 
 .banner-container .col-md-4 h3 {
 	display: flex;
-	/* width: 465px; */
-	/* flex-direction: column; */
 	flex-shrink: 0;
 	color: var(--color-2900, #000);
 	font-size: 24px;
@@ -734,10 +728,7 @@ h1 {
 .footer-links {
 	display: flex;
 	justify-content: space-between;
-	/* height: 291px; */
 	padding-top: 40px;
-	/* padding-left: 324px; */
-	/* padding-right: 324px; */
 	padding-bottom: 64px;
 }
 
@@ -1017,7 +1008,6 @@ h1 {
 		flex-direction: row;
 		align-items: center;
 		justify-content: center;
-		/* max-width: 298px; */
 		margin: 0 2rem;
 	}
 
@@ -1081,8 +1071,6 @@ h1 {
 	}
 
 	.banner-container .col-md-8 {
-		/* padding-left: 31px; */
-		/* padding-right: 31px; */
 		text-align: center;
 	}
 
