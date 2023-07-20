@@ -107,12 +107,13 @@ $('.tipbar-cards, .parcerias-cards').slick({
 				slidesToShow: 1,
 				slidesToScroll: 1,
 				autoplay: true,
-				autoplaySpeed: 0,
-				speed: 6000,
+				autoplaySpeed: 3000,
+				speed: 1200,
 				dots: false,
 				infinite: true,
 				arrows: false,
-				cssEase: 'linear'
+				fade: true,
+				pauseOnHover: false
 			}
 		}
 	]
@@ -133,4 +134,4 @@ $(".secao-rodape").on("click", (event) => {
 			.slideToggle();
 
 	}
-})
+});
