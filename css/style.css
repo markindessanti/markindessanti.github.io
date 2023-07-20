@@ -876,13 +876,14 @@ h1 {
 
 #modal-desktop {
 	position: absolute;
-	top: 352px;
 	text-align: center;
-	margin: 0 auto;
 	width: 848px;
 	left: 0;
 	right: 0;
 	z-index: 2;
+	top: 0;
+	bottom: 0;
+	margin: auto;
 }
 
 .row-modal {
@@ -1026,6 +1027,7 @@ h1 {
 	#modal-desktop,
 	.row-modal .col form div.texto {
 		width: 298px;
+		height: 327px;
 	}
 
 	.row-modal {
@@ -1045,6 +1047,10 @@ h1 {
 
 	.row-modal .col form div.texto p:last-of-type {
 		font-size: 16px;
+	}
+
+	.row-modal .col form .form-componentes {
+		padding-top: 40px;
 	}
 
 	.banner-container .row {
